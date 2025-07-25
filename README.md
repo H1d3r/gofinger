@@ -39,31 +39,10 @@
 
 ### 安装步骤
 
-1.  **克隆项目**
-    ```bash
-    git clone https://github.com/huaimeng666/gofinger.git
-    cd finger
-    ```
-
-2.  **安装 Go 依赖**
-    ```bash
-    go mod tidy
-    ```
-    *若下载缓慢，可配置 Go 代理：*
-    ```bash
-    go env -w GOPROXY=https://goproxy.cn,direct
-    ```
-
-3.  **编译项目**
-    ```bash
-    # 编译当前系统的版本
-    go build -o gofinger main.go
+1.  **下载最新发布项目**
     
-    # (可选) 交叉编译其他平台版本
-    # For Linux
-    GOOS=linux GOARCH=amd64 go build -o gofinger-linux
-    # For Windows
-    GOOS=windows GOARCH=amd64 go build -o gofinger.exe
+    ```bash
+    https://github.com/huaimeng666/gofinger
     ```
 
 4.  **测试运行**
